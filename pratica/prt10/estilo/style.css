@@ -1,0 +1,23 @@
+@charset "UFT-8";
+
+:root{
+    --cor1:#F68632;
+    --cor2:#7D7D7C;
+    --cor3:#F56431;
+    --cor4:#F5A731;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vh;
+}
+
+header{
+    background-color: var(--cor3) ;
+    text-align: center;
+    padding: 30px;
+}
