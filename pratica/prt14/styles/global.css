@@ -2,19 +2,46 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --brand-color-light:#60A5FA;
   --brand-color-dark:#1D4ED8;
   --bg-color:#0F172A;
   --stroke-color:#1E293B;
-  --text-color-primary:#F1F5F;
+  --text-color-primary:#F1F5F9;
   --text-color-secondary:#CBD5E1;
 
   --fonte-family: "Archivo", sans-serif;
-  --text-h1:extrabold 24px/135% var(--fonte-family);
-  --text-h2:extrabold 16px/140% var(--fonte-family);
-  --text-h3:extrabold 14px/140% var(--fonte-family)  ;
-  --text-sp:semibold 14px/145% var(--fonte-family);
-  --text:14px/160% var(--fonte-family);
+  --h1:800 24px/135% var(--fonte-family);
+  --h2:800 16px/140% var(--fonte-family);
+  --h3:800 14px/140% var(--fonte-family)  ;
+  --text-sp:600 14px/145% var(--fonte-family);
+  --text:400 16px/140% var(--fonte-family);
+  --text-sm:400 14px/160% var(--fonte-family);
+
   
+}
+
+body {
+  font:var(--text);
+  color:var(--text-color-primary);
+  background-color:#0F172A;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--brand-color-light);
+}
+
+h1,h2,h3 {
+  font: inherit;
 }
