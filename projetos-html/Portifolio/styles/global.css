@@ -27,7 +27,7 @@
   --gray-600:#E2E4E9;
 
   --fonte-family-titlle:"Asap", sans-serif;
-  --fonte-family-subtitlle:"Incololata", sans-serif;
+  --fonte-family-subtitlle:"Inconsolata", sans-serif;
   --fonte-family-text:"Maven Pro", sans-serif;
 
   --title-lg:bold 56px/120% var(--fonte-family-titlle);
@@ -39,13 +39,36 @@
 
 }
 
-#info header {
-  margin-block: 94px;
+#info {
+  width: 100%;
+  padding-top: 1px;
+  padding-bottom: 72px;
+  justify-items: center;
+  background-color: var(--gray-200);
+  background-image: url(../assets/image/Background_Intro.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 
-  img {
+}
 
-   height: 96px;
-   
-   
+#tags{
+  display: flex;
+  gap: 16px;
+  margin-bottom: 94px;
+
+  .tag{
+    display:flex;
+    color: var(--gray-500);
+    background-color: var(--gray-300);
+    border-radius: 16px;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+
   }
+}
+
+#projects {
+  background-color: var(--gray-300);
+  
 }
