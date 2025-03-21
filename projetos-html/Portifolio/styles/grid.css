@@ -1,4 +1,44 @@
-.default{
-  background-color: var(--gray-500);
-  width: 330px;
+.grid {
+  display: grid; 
+  position: absolute;
+  grid-template-columns: repeat(3, 1fr);
+  gap:24px;
 }
+
+
+.default{
+  background-color: var(--gray-300);
+  width: 330px;
+  height: 280px;
+  border-radius: 12px;
+  position: relative;
+  
+  
+  .image {
+
+    img{
+      display: flex;
+      border-radius: 8px;
+      width: 306px;
+      position: relative;
+      margin: 12px;
+  
+  
+    }
+  }
+
+  .text{
+    padding: 4px;
+    margin-inline: 12px;
+    margin-top:16px;
+  h2{
+    color: var(--gray-600);
+    margin-bottom: 8px;
+    
+  }
+  p{
+    color: var(--gray-500);
+  }
+ }
+}
+
